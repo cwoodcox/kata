@@ -30,7 +30,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+   // XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
+    NSString *crap = @"";
+    XCTAssertTrue(![crap isEqualToString:nil],@"not supposed to be nil");
 }
 
 @end

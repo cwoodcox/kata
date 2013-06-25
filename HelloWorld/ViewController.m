@@ -34,7 +34,32 @@
     _min.text = [mainDictionary objectForKey:@"min"];
     _max.text = [mainDictionary objectForKey:@"max"];
     
+    NSString *myString = @"Abc, Def, Ghi, Lmno";
+   //NSArray *myArray = [myString componentsSeparatedByString:@","];
+    
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"football"
+                                                     ofType:@"csv"];
+    NSString* content = [NSString stringWithContentsOfFile:path
+                                                  encoding:NSUTF8StringEncoding
+                                                     error:NULL];
+    
+    NSArray *lines = [content componentsSeparatedByString:@"\n"];
+    NSString *line;
+    NSMutableArray *scores = [[NSMutableArray alloc] init];
 
+    for(line in lines) {
+        [scores addObject:[line componentsSeparatedByString:@","] ];
+    }
+    
+    NSArray *record;
+    NSArray *best = scores[0];
+    for(record in scores) {
+        if(([record[1] integerValue] - [record[2] integerValue]) < ([best[1] integerValue] - [best[2] integerValue])) {
+            best = record;
+        }
+    }
+    
+    NSLog(@"%s", __FUNCTION__);
 }
 
 - (void)didReceiveMemoryWarning
