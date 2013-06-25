@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13587782177A4A6800562FAE /* football.csv in Resources */ = {isa = PBXBuildFile; fileRef = 13587781177A4A6800562FAE /* football.csv */; };
 		567708F2177A3A8D0006503B /* WeatherTemps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 567708F1177A36180006503B /* WeatherTemps.plist */; };
 		56BE4F421779F526009942B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE4F411779F526009942B1 /* Foundation.framework */; };
 		56BE4F441779F526009942B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE4F431779F526009942B1 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13587781177A4A6800562FAE /* football.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = football.csv; sourceTree = "<group>"; };
 		567708F1177A36180006503B /* WeatherTemps.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeatherTemps.plist; sourceTree = "<group>"; };
 		56BE4F3E1779F526009942B1 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BE4F411779F526009942B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 				56BE4F691779F526009942B1 /* HelloWorldTests */,
 				56BE4F401779F526009942B1 /* Frameworks */,
 				56BE4F3F1779F526009942B1 /* Products */,
+				13587781177A4A6800562FAE /* football.csv */,
 			);
 			sourceTree = "<group>";
 		};
@@ -237,6 +240,7 @@
 				567708F2177A3A8D0006503B /* WeatherTemps.plist in Resources */,
 				56BE4F581779F526009942B1 /* Main_iPad.storyboard in Resources */,
 				56BE4F5D1779F526009942B1 /* Images.xcassets in Resources */,
+				13587782177A4A6800562FAE /* football.csv in Resources */,
 				56BE4F551779F526009942B1 /* Main_iPhone.storyboard in Resources */,
 				56BE4F4C1779F526009942B1 /* InfoPlist.strings in Resources */,
 			);
