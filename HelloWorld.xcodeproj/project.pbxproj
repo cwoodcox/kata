@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567708F2177A3A8D0006503B /* WeatherTemps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 567708F1177A36180006503B /* WeatherTemps.plist */; };
 		56BE4F421779F526009942B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE4F411779F526009942B1 /* Foundation.framework */; };
 		56BE4F441779F526009942B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE4F431779F526009942B1 /* CoreGraphics.framework */; };
 		56BE4F461779F526009942B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE4F451779F526009942B1 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		567708F1177A36180006503B /* WeatherTemps.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeatherTemps.plist; sourceTree = "<group>"; };
 		56BE4F3E1779F526009942B1 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BE4F411779F526009942B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56BE4F431779F526009942B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 				56BE4F5A1779F526009942B1 /* ViewController.m */,
 				56BE4F5C1779F526009942B1 /* Images.xcassets */,
 				56BE4F481779F526009942B1 /* Supporting Files */,
+				567708F1177A36180006503B /* WeatherTemps.plist */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567708F2177A3A8D0006503B /* WeatherTemps.plist in Resources */,
 				56BE4F581779F526009942B1 /* Main_iPad.storyboard in Resources */,
 				56BE4F5D1779F526009942B1 /* Images.xcassets in Resources */,
 				56BE4F551779F526009942B1 /* Main_iPhone.storyboard in Resources */,
@@ -468,6 +472,7 @@
 				56BE4F751779F526009942B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56BE4F761779F526009942B1 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				56BE4F781779F526009942B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

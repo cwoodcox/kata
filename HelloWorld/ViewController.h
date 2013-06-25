@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *day;
+@property (weak, nonatomic) IBOutlet UILabel *min;
+@property (weak, nonatomic) IBOutlet UILabel *max;
 
 @end
